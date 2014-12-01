@@ -289,7 +289,6 @@
 .carousel{
   height: 500px;
   background-color: black;
-  margin: 0px -43px;
 }
 .carousel .item{
     height: 500px;
@@ -302,7 +301,28 @@
   width: 100%;
 }
 
+/*********************************************************************************/
+/* Back to Top                                                                   */
+/*********************************************************************************/
 
+/*.back_to_top{
+  background-color: pink;
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  text-align: center;
+  padding: 2px;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999999999;
+  display: none;
+}
+
+.visible{
+	display: visible;
+}*/
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
