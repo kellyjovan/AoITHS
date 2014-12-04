@@ -1,16 +1,16 @@
 $(document).ready(function(){
 
-  // $('.back_to_top').click(function(){
-  //   alert("Clicked");
-  // })
-
-  // function scroll() {
-  //       if ($(window).scrollTop() >= origOffsetY) {
-  //           $('.back_to_top').addClass('visible');
-  //       } else {
-  //         $('.back_to_top').removeClass('visible');
-  //       }
-  //   }
+  $('.back_to_top').click(function(){
+    alert("Clicked");
+  })
+  $('.back_top_top').hide();
+  function scroll() {
+        if ($(window).scrollTop() >= origOffsetY) {
+          $('.back_to_top').fadeIn();
+        } else {
+          $('.back_to_top').fadeOut();
+        }
+    }
 
   $('.anchor').click(function(){
       $('html, body').animate({
